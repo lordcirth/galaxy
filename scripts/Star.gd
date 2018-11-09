@@ -10,8 +10,10 @@ func _ready():
 	pass
 
 func _input_event(camera, event, click_position, click_normal, shape_idx):
-	print("Ping")
-	popup_centered(Vector2(0,0))
+	print(event)
+	if event is InputEventMouseButton:
+		print("Ping")
+		#popup_centered(Vector2(0,0))
 
 
 #func _process(delta):
