@@ -2,19 +2,19 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/starmesh.dae-758e654acb71d3d1405b4dd2db91e1eb.scn"
+path="res://.import/star_tri.dae-0b4cb7e41f18b572b64dfb004c9422c2.scn"
 
 [deps]
 
-source_file="res://starmesh.dae"
-dest_files=[ "res://.import/starmesh.dae-758e654acb71d3d1405b4dd2db91e1eb.scn" ]
+source_file="res://imports/star_tri.dae"
+dest_files=[ "res://.import/star_tri.dae-0b4cb7e41f18b572b64dfb004c9422c2.scn" ]
 
 [params]
 
 nodes/root_type="StaticBody"
 nodes/root_name="Star"
 nodes/root_scale=1.0
-nodes/custom_script="res://Star.gd"
+nodes/custom_script=""
 nodes/storage=0
 materials/location=1
 materials/storage=1

@@ -2,17 +2,17 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/star.dae-0e7ddeeee8d4a0c20cdd8a55268aea12.scn"
+path="res://.import/starmesh.dae-d902cd3c0de73a3881175dfc92467386.scn"
 
 [deps]
 
-source_file="res://star.dae"
-dest_files=[ "res://.import/star.dae-0e7ddeeee8d4a0c20cdd8a55268aea12.scn" ]
+source_file="res://imports/starmesh.dae"
+dest_files=[ "res://.import/starmesh.dae-d902cd3c0de73a3881175dfc92467386.scn" ]
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="StaticBody"
+nodes/root_name="Star"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
@@ -25,7 +25,7 @@ meshes/storage=0
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.1
 external_files/store_in_subdir=false
-animation/import=true
+animation/import=false
 animation/fps=15
 animation/filter_script=""
 animation/storage=false
