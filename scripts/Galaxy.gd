@@ -30,7 +30,7 @@ func new_fleet(name, position):
 	fleet_node = fleet_scene.instance()
 	fleet_node.name = name
 	fleet_node.translate(position)
-	fleet_node.global_scale(Vector3(0.5,0.5,0.5))
+	#fleet_node.set_scale(Vector3(0.5,0.5,05))
 	add_child(fleet_node)
 	return fleet_node
 
